@@ -37,6 +37,7 @@ function initGame(){
 }
 
 function createImages(){
+    $("#gameBoard").show();
     let imageNum = 0;
     let profNum = 0;
     switch(dificulty){
