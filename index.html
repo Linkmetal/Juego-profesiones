@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <link rel="stylesheet" href="node_modules/toastr/build/toastr.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+    <title>Profesiones</title>
+</head>
+<body>
+    <div id="mainContainer" >
+        <div id="nameForm" class="resizable">
+            <h1>Juego de profesiones</h1>
+            <label for="nameInput">
+                Nombre:&nbsp;&nbsp;&nbsp;<input id="nameInput" type="text" max="100"><br/><br/>
+                <button id="initButton" class="ui-button ui-widget ui-corner-all">Iniciar</button>
+            </label>
+        </div>
+        <div id="selectDificulty">
+            <h1 align="center">Seleccione una dificultad</h1>
+            <button id="easyButton" value="0" class="difButton ui-button ui-widget ui-corner-all">Piece of cake</button>
+            <button id="mediumButton" value="1" class="difButton ui-button ui-widget ui-corner-all">Come get some</button>
+            <button id="hardButton" value="2" class="difButton ui-button ui-widget ui-corner-all">Damn I'm Good</button>
+
+        </div>
+    </div>
+</body>
+</html>
