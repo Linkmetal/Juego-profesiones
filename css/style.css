@@ -104,3 +104,167 @@ h1 {
   background-position-y: 50%;
   background-repeat: no-repeat;
 }
+
+#caladora {
+  background-image: url("../img/carpintero/caladora.jpg");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+#lima {
+  background-image: url("../img/carpintero/lima.jpg");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+#serrucho {
+  background-image: url("../img/carpintero/serrucho.png ");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+#martillo {
+  background-image: url("../img/carpintero/martillo.jpg");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+#cazo {
+  background-image: url("../img/cocinero/cazo.jpg");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+#gorro {
+  background-image: url("../img/cocinero/gorro.jpg");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+#rodillo {
+  background-image: url("../img/cocinero/rodillo.jpg");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+#varilla {
+  background-image: url("../img/cocinero/varilla.jpg");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+#cafe {
+  background-image: url("../img/programador/cafetera.jpg");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+#chocolate {
+  background-image: url("../img/programador/chocolate.jpg");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+#google {
+  background-image: url("../img/programador/google.jpg");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+#stack_overflow {
+  background-image: url("../img/programador/stackoverflow.png");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+#banco {
+  background-image: url("../img/politico/banco.jpg");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+#maletin {
+  background-image: url("../img/politico/codigopenal.jpg");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+#codigo_penal {
+  background-image: url("../img/politico/maletin.jpg");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+#tarjeta_black {
+  background-image: url("../img/politico/tarjeta.jpg");
+  width: 45%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: solid thin black;
+  background-position: center;
+}
+
+.tool {
+  background-color: white;
+}

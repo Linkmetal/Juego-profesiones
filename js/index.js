@@ -7,8 +7,8 @@ $(document).ready(function(){
     $(".difButton").click(function(event){
         dificulty = ($(event.target).val());
         toastr.info(dificulty);
-        $("#selectDificulty").hide();
-        createImages()
+        $("#selectDificulty").dialog("close");
+        createImages();
     });
     toastr.options.closeButton = true;
         toastr.options.positionClass = "toast-bottom-right";
@@ -29,7 +29,7 @@ function initGame(){
     if($("#nameInput").val() != ""){
         name = $("#nameInput").val();
         $("#nameForm").hide();
-        $("#selectDificulty").show();
+        $("#selectDificulty").dialog();
     }
     else{
         toastr.error("Introduzca un nombre válido.");
@@ -55,5 +55,7 @@ function createImages(){
         break;
     }
 
+    $(".tool").draggable();
 }
+
 
